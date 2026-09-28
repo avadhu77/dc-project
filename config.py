@@ -1,0 +1,18 @@
+NODE_SIZES = [10, 25, 50, 100, 200]
+ATTACK_LEVELS = [0.0, 0.10, 0.20]
+REPETITIONS = 3
+
+# Workload parameters
+MESSAGES_PER_NODE = 5
+MESSAGE_SIZE = 128
+USERS_PER_NODE = 2
+PROTECTED_RESOURCES = 10
+
+# Consistent-hashing ring
+HASH_RING_REPLICAS = 3
+
+# Reproducibility
+BASE_SEED = 20260928
+
+# Output
+RESULT_DIR = "results"
